@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* banner */
+.banner {
+    background-color: #26d07c;
+    width: 100%;
+
+}
+
+.banner-wrapper {
+    padding: 80px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pre-head {
+    padding: 10px 0;
+}
+
+.pre-head p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+}
+
+.page-heading {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+.page-heading h1 {
+    font-weight: 800;
+    font-size: 4.95rem;
+    letter-spacing: -.050rem;
+}
+
+.page-sub-heading {
+    padding: 0 10px;
+    text-align: center;
+}
+
+.page-sub-heading p {
+    line-height: 1.125;
+    font-size: 1.75rem;
+    margin: 0 0 3rem;
+    color: #fff;
+    font-weight: 400;
+
+}
+
+.scroll-arrow-group {
+    display: inline;
+
+}
+
+svg {
+    color: #fff;
+}
+
+.scroll-arrow-group .scroll-arrow-one {
+    -webkit-animation: scroll-arrow-one-animation 1s linear infinite;
+    animation: scroll-arrow-one-animation 1s linear infinite;
+}
+
+.scroll-arrow-group .scroll-arrow-two {
+    -webkit-animation: scroll-arrow-two-animation 1s linear infinite;
+    animation: scroll-arrow-two-animation 1s linear infinite;
+}
+
+.scroll-arrow-group .scroll-arrow-three {
+    -webkit-animation: scroll-arrow-three-animation 1s linear infinite;
+    animation: scroll-arrow-three-animation 1s linear infinite;
+}
+
+@-webkit-keyframes scroll-arrow-one-animation {
+    0% {
+        opacity: 1;
+    }
+
+    33% {
+        opacity: .25;
+    }
+
+    66% {
+        opacity: .25;
+    }
+
+    100% {
+        opacity: .25;
+    }
+}
+
+@keyframes scroll-arrow-one-animation {
+    0% {
+        opacity: 1;
+    }
+
+    33% {
+        opacity: .25;
+    }
+
+    66% {
+        opacity: .25;
+    }
+
+    100% {
+        opacity: .25;
+    }
+}
+
+@-webkit-keyframes scroll-arrow-two-animation {
+    0% {
+        opacity: .25;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    66% {
+        opacity: .25;
+    }
+
+    100% {
+        opacity: .25;
+    }
+}
+
+@keyframes scroll-arrow-two-animation {
+    0% {
+        opacity: .25;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    66% {
+        opacity: .25;
+    }
+
+    100% {
+        opacity: .25;
+    }
+}
+
+@-webkit-keyframes scroll-arrow-three-animation {
+    0% {
+        opacity: .25;
+    }
+
+    33% {
+        opacity: .25;
+    }
+
+    66% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: .25;
+    }
+}
+
+@keyframes scroll-arrow-three-animation {
+    0% {
+        opacity: .25;
+    }
+
+    33% {
+        opacity: .25;
+    }
+
+    66% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: .25;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .page-heading h1 {
+        font-size: 3.95rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .page-heading h1 {
+        font-size: 2.25rem;
+        line-height: 40px;
+        font-weight: 700;
+
+    }
+}
+
